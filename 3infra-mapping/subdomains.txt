@@ -28,7 +28,6 @@ _(This count includes both active and inactive subdomains, including MX records,
 
 
 
-
 ---
 
 ## Notes & Observations:
