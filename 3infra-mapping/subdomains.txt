@@ -1,0 +1,69 @@
+# Day 3 – Subdomain Enumeration
+
+This file contains filtered subdomains identified for `tesla.com` as part of the Day 3 infrastructure mapping exercise.
+
+Subdomains were discovered using the tool **Amass**, and resolved with **host** and **dig**. Only relevant or informative entries are included.
+
+**Total Subdomains Found:** 12  
+_(This count includes both active and inactive subdomains, including MX records, login panels, and third-party services.)_
+
+---
+
+### Filtered Subdomains (Relevant/Informative)
+
+| Subdomain                                    | Resolved IP (optional) | Notes                                        |
+| -------------------------------------------- | ---------------------- | -------------------------------------------- |
+| tesla.com                                    | 23.7.244.207           | Main domain (A record)                       |
+| tesla-com.mail.protection.outlook.com        | 52.101.40.2            | MX target (Mail server)                      |
+| accounts.tesla.com                           | 23.33.52.66            | CNAME to Akamai (edge network)               |
+| share.tesla.com                              | 205.234.27.221<br>     | CNAME to Akamai (akadns.net) endpoint        |
+| mobile.tesla.com<br>                         | 104.120.58.228<br>     | CNAME to Akamai (edge network)    \|         |
+| click.email.tesla.com                        | 23.218.158.226         | Email click tracking (likely Adobe/Campaign) |
+| static-map.tesla.com                         | 104.120.58.228         | Static map content (Akamai edge)             |
+| static.tesla.com                             | 104.120.58.228         | Static content (served via Akamai CDN)       |
+| api-firebolt-stage.tesla.com                 | 104.120.58.228         | Staging API (Akamai edge)                    |
+| api-firebolt-dev.tesla.com                   | 104.120.58.228         | Development API (Akamai edge)                |
+| akamai-apigateway-warptmsapiserver.tesla.com | 104.120.58.228         | Internal API server (via Akamai CDN)         |
+| akamai-apigateway-warptqpapi.tesla.com       | 104.120.58.228         | API gateway (served via Akamai CDN)          |
+
+
+
+
+---
+
+## Notes & Observations:
+
+- Heavy reliance on **Akamai CDN** infrastructure for asset delivery and edge routing.
+- Several subdomains (like `api-firebolt-dev`, `-stage`) suggest **non-production environments**, which may be interesting for **attack surface mapping**.
+- `click.email.tesla.com` is a common pattern for marketing tracking and may be part of a **third-party platform** (Adobe Campaign or Salesforce).
+- Domain naming conventions indicate a **structured internal API system**, possibly with versioning and staging separation.
+- Further investigation can be done on:
+  - SSL/TLS config
+  - Open ports
+  - Technologies via Wappalyzer/Nuclei
+  - Screenshots (using Aquatone or Gowitness)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
