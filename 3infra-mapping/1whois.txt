@@ -1,0 +1,74 @@
+ WHOIS Recon Report – Domain: tesla.com
+
+
+ Basic Domain Information
+
+| Field                      | Value                                         |
+| -------------------------- | --------------------------------------------- |
+| **Domain Name**            | tesla.com                                     |
+| **Registry Domain ID**     | 187902\_DOMAIN\_COM-VRSN                      |
+| **Registrar**              | MarkMonitor Inc.                              |
+| **Registrar URL**          | [markmonitor.com](http://www.markmonitor.com) |
+| **Registrar WHOIS Server** | whois.markmonitor.com                         |
+| **Updated Date**           | 2024-10-02T10:15:20Z                          |
+| **Creation Date**          | 1992-11-04T05:00:00Z                          |
+| **Registry Expiry Date**   | 2026-11-03T05:00:00Z                          |
+| **IANA ID**                | 292                                           |
+
+ Registrar Contact
+Abuse Contact Email: abusecomplaints@markmonitor.com
+Abuse Contact Phone: +1.2086851750
+
+
+Registrant Details
+
+| Field            | Value                                                   |
+| ---------------- | ------------------------------------------------------- |
+| **Organization** | DNStination Inc. (privacy service)                      |
+| **Location**     | San Francisco, California, US                           |
+| **Admin Email**  | [admin@dnstinations.com](mailto:admin@dnstinations.com) |
+ Note: Real registrant details are protected via privacy services, a common practice for high-profile domains.
+
+
+Name Servers
+
+| DNS Provider | Servers                                                                                           |
+| ------------ | ------------------------------------------------------------------------------------------------- |
+| **Akamai**   | A1-12.AKAM.NET, A10-67.AKAM.NET, A12-64.AKAM.NET, A28-65.AKAM.NET, A7-66.AKAM.NET, A9-67.AKAM.NET |
+| **UltraDNS** | EDNS69.ULTRADNS.BIZ, .COM, .NET, .ORG                                                             |
+
+ Notes:
+
+The domain uses Akamai and UltraDNS, suggesting:
+
+Performance optimization (via Akamai CDN)
+
+Redundancy & DNS failover protection (via multiple providers)
+
+
+WHOIS privacy is a signal of good OPSEC (operational security).
+
+🧠 Combining this data with subdomain enumeration, reverse IP lookup, and port scanning would give a more complete infrastructure profile.
+
+📅 The domain was registered in 1992, showing it's a legacy domain (valuable intel for brand reputation or potential spoofing targets).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
