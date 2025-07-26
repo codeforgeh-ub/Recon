@@ -1,0 +1,24 @@
+Redacted + Annotated Version
+
+# Affiliate - Domain Name (Redacted + OSINT Notes)
+# Format: Affiliate_Domain, Associated_Hostname_or_Subdomain
+# Notes: Subdomains that may reveal specific internal infrastructure or tracking systems have been partially redacted or commented
+
+amazonaws.com, ec2-50-112-249-163.us-west-2.compute.amazonaws.com
+#  Likely a public AWS EC2 instance. IP + region shown for transparency.
+
+hstgr.net, [REDACTED].cdn.hstgr.net
+# Subdomain likely hosted via Hostinger CDN. 
+
+tesla-electronics.eu, [REDACTED].tesla-electronics.eu
+#  Masked subdomain due to potential direct link to eshop or backend. Can note it was ecommerce-related.
+
+teslaclub.me, www.teslaclub.me
+# Public-facing site. 
+
+teslarati.com, www.teslarati.com
+# Public news/media site. No redaction needed.
+
+web-revolution.cz, [REDACTED].web-revolution.cz
+#  Possibly an internal proxy subdomain. Redacted as it might expose backend tooling.
+
