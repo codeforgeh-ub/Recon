@@ -1,0 +1,25 @@
+Affiliate_emails_redacted.csv
+
+# Affiliate - Email Address (Redacted + OSINT Notes)
+# Notes: Personal or sensitive-looking emails have been anonymized. Public or official contact emails are kept where appropriate.
+
+1001tvs@nero.com
+carplay@iexitapp.com
+editor@bbctopgearmagazine.com
+info@iexitapp.com
+info@[REDACTED].me                          redacted to avoid direct affiliation exposure
+ios@chargehub.com
+[REDACTED]@gmail.com                      personal Gmail, anonymized
+support@ev.energy
+support@getoptiwatt.com
+support@plume.com
+support@sentrypro.app
+support@stockstobuynow.ai
+whoisrequest@markmonitor.com
+[REDACTED]@gg.com                            likely placeholder/pseudonym, redacted
+[REDACTED]@peppapig.com                      likely fictional, redacted to avoid misrepresentation
+[REDACTED]@chromium.org                         developer name exposed, redacted
+[REDACTED]@teslamotors.com                       possible employee email, redacted for ethical reasons
+
+
+Personal, employee, or potentially identifying email addresses have been partially or fully redacted in accordance with ethical OSINT practices. Public contact or media-facing addresses are left visible. No private breach data is included.

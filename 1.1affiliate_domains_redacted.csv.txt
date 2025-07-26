@@ -22,3 +22,5 @@ teslarati.com, www.teslarati.com
 web-revolution.cz, [REDACTED].web-revolution.cz
 #  Possibly an internal proxy subdomain. Redacted as it might expose backend tooling.
 
+
+ Some subdomains and hostnames have been redacted or anonymized to avoid sharing sensitive or private infrastructure details. Only public-facing or intentionally exposed domains are left intact. This follows ethical OSINT guidelines for publishing.
